@@ -1,4 +1,4 @@
-[![GoDoc](https://godoc.org/github.com/beefsack/go-jch?status.png)](http://godoc.org/github.com/beefsack/go-jch)
+[![GoDoc](https://godoc.org/github.com/beefsack/go-jch?status.png)](http://godoc.org/github.com/beefsack/go-jch) [![Build Status](https://travis-ci.org/beefsack/go-jch.svg?branch=master)](https://travis-ci.org/beefsack/go-jch)
 
 Package jch provides an implementation of the Jump Consistent Hash
 consistent hashing algorithm in Go.
