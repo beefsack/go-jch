@@ -12,3 +12,12 @@ Jump Consistent Hash was invented by John Lamping and Eric Veach, and is
 described in the paper "A Fast, Minimal Memory, Consistent Hash Algorithm"
 (2014) available at http://arxiv.org/abs/1406.2294v1.
 
+```go
+import "github.com/beefsack/go-jch"
+
+func ExampleHash() {
+	hash := jch.Hash(28, 5)
+	fmt.Print(hash)
+	// Output: 2
+}
+```

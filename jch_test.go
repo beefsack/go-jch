@@ -1,6 +1,9 @@
 package jch
 
-import "testing"
+import (
+	"fmt"
+	"testing"
+)
 
 func TestHash(t *testing.T) {
 	hashes := map[uint64]int32{}
@@ -27,6 +30,12 @@ func TestHash(t *testing.T) {
 			}
 		}
 	}
+}
+
+func ExampleHash() {
+	hash := Hash(28, 5)
+	fmt.Print(hash)
+	// Output: 2
 }
 
 func BenchmarkHash(b *testing.B) {
